@@ -593,6 +593,8 @@ def iniciar_sesion():
 #  SIDEBAR Y MENÚ
 # =========================================================
 with st.sidebar:
+    col1, col2, col3 = st.columns([1, 2, 1])
+with col2:
     st.image("logo.png", width=100)
     st.markdown(
         f"<h1 style='text-align:center;color:white !important;"
