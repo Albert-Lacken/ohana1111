@@ -332,6 +332,16 @@ div.stButton > button:hover { background: #E6007E; color: white; transform: scal
 .catalogo-hero h1 { font-size: 2.8em; margin-bottom:0; }
 .catalogo-hero p { color:#B5005F; font-weight:600; }
 
+.catalogo-hero .estrella {
+    font-size: 0.5em;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    .catalogo-hero h1 { font-size: 1.9em; }
+    .catalogo-hero p { font-size: 0.9em; padding: 0 0.5em; }
+}
+
 .btn-whatsapp {
     display:inline-block; background:#25D366; color:white !important; border:0;
     border-radius:999px; padding:10px 22px; font-weight:700; text-decoration:none;
@@ -519,7 +529,7 @@ def tarjeta_catalogo(nombre, producto, r):
 def pagina_catalogo_contenido():
     st.markdown(f"""
     <div class="catalogo-hero">
-        <h1>✨ {NOMBRE_NEGOCIO} ✨</h1>
+        <h1><span class="estrella">✨</span> {NOMBRE_NEGOCIO} <span class="estrella">✨</span></h1>
         <p>Productos personalizados hechos con mucho cariño 🌸</p>
     </div>
     """, unsafe_allow_html=True)
