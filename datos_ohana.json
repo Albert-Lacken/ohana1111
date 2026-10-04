@@ -1,0 +1,1042 @@
+{
+    "config": {
+        "moneda": "$",
+        "margen_pct": 40.0,
+        "impuesto_pct": 0.0,
+        "redondeo": 1.0
+    },
+    "gastos_fijos": {
+        "renta": 2000.0,
+        "luz": 200.0,
+        "agua": 200.0,
+        "internet": 300.0,
+        "apps": 300.0,
+        "adobe": 500.0,
+        "gasolina": 2500.0,
+        "mantenimiento": 600.0,
+        "dominio": 150.0,
+        "dias_mes": 20.0,
+        "horas_dia": 6.0
+    },
+    "materiales": {
+        "Doble cara": {
+            "categoria": "ADHESIVO",
+            "unidad": "Centímetro",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Masking tape": {
+            "categoria": "ADHESIVO",
+            "unidad": "Centímetro",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cinta perra": {
+            "categoria": "ADHESIVO",
+            "unidad": "Centímetro",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Puntos Foam 100": {
+            "categoria": "ADHESIVO",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": "$5 planilla"
+        },
+        "Silicon frío": {
+            "categoria": "ADHESIVO",
+            "unidad": "ML",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Silicon caliente": {
+            "categoria": "ADHESIVO",
+            "unidad": "Barra",
+            "costo": 2.0,
+            "nota": ""
+        },
+        "Pegamento blanco": {
+            "categoria": "ADHESIVO",
+            "unidad": "ML",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Velcro puntos": {
+            "categoria": "ADHESIVO",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globos látex 5\"": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globos látex 12\"": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globos látex largos": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globos látex metálicos 5\"": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globos látex metálicos 12\"": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globo burbuja G": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Globo burbuja M": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Gas helio burbuja grande": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Pieza",
+            "costo": 96.0,
+            "nota": "7-8 por tanque, tanque $750"
+        },
+        "Gas helio globo metálico": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Pieza",
+            "costo": 35.0,
+            "nota": "20 por tanque, tanque $750"
+        },
+        "Cordón algodón colores": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 4.0,
+            "nota": ""
+        },
+        "Cordón algodón natural": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": ""
+        },
+        "Cordón yute": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Listón satinado 10mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": "rollo 25m"
+        },
+        "Listón satinado 16mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": "rollo 20m"
+        },
+        "Listón satinado 23mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 4.0,
+            "nota": "rollo 10m"
+        },
+        "Listón satinado 38mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 6.0,
+            "nota": "rollo 10m"
+        },
+        "Listón popotillo 10mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": "rollo 15m"
+        },
+        "Listón popotillo 16mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 4.0,
+            "nota": "rollo 15m"
+        },
+        "Listón popotillo 23mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 5.0,
+            "nota": "rollo 10m"
+        },
+        "Listón popotillo 38mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 8.0,
+            "nota": "rollo 10m"
+        },
+        "Listón organza 16mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": "rollo 20m"
+        },
+        "Listón organza 22mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 2.0,
+            "nota": "rollo 20m"
+        },
+        "Listón organza 38mm": {
+            "categoria": "DECORACIÓN",
+            "unidad": "Metro",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel china": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pliego",
+            "costo": 1.0,
+            "nota": "paquete"
+        },
+        "Bolsa non woven mini": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa non woven S": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa non woven M": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa non woven G": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Caja cartón IKEA": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 15.0,
+            "nota": ""
+        },
+        "Stickers": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa celofán adhesivo": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa celofán papas": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa celofán playeras": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa celofán tags": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa plástico dulces": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa plástico palomitas": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa kraft": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bolsa celofán cake toppers": {
+            "categoria": "EMBALAJE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Hoja espuma": {
+            "categoria": "EMBALAJE",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cartón base": {
+            "categoria": "EMBALAJE",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Eyelets": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Argollas colores 8mm": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cadenitas colores": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Argollas llavero plata": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Argollas llavero Oro": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Argollas corazón": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 5.0,
+            "nota": ""
+        },
+        "Mosquetones colores": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 5.0,
+            "nota": ""
+        },
+        "Argollas grandes colores": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 5.0,
+            "nota": ""
+        },
+        "Argollas colores 6mm": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cadenita balines": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Imanes 8x1mm": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 2.0,
+            "nota": ""
+        },
+        "Mini clavitos": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Etiquetas equipaje": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cuentas Madera 16mm Nat": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Cuentas plástico colores 14mm": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Etiquetas rascables rosa": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cuentas madera peques": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cuentas pintadas colores 10mm": {
+            "categoria": "HERRAJES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "PLA": {
+            "categoria": "IMPRESIÓN 3D",
+            "unidad": "Gramo",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "TPU": {
+            "categoria": "IMPRESIÓN 3D",
+            "unidad": "Gramo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Impresión Bond B/N": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Hoja",
+            "costo": 3.0,
+            "nota": "T/C"
+        },
+        "Impresión fotográfica color": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Impresión adhesiva": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Impresión glossy": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Impresión Bond B/N (tabloide)": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Tabloide",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Impresión fotográfica color (tabloide)": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Tabloide",
+            "costo": 20.0,
+            "nota": "Lumen"
+        },
+        "Impresión adhesiva (tabloide)": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Tabloide",
+            "costo": 18.0,
+            "nota": "Claudio"
+        },
+        "Impresión glossy (tabloide)": {
+            "categoria": "IMPRESIONES",
+            "unidad": "Tabloide",
+            "costo": 15.0,
+            "nota": "Claudio"
+        },
+        "DTF Textil": {
+            "categoria": "IMPRESIONES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": "Printu 58x100, ref $190"
+        },
+        "Vinil Adhesivo (plotter)": {
+            "categoria": "IMPRESIONES",
+            "unidad": "ML",
+            "costo": 490.0,
+            "nota": ""
+        },
+        "DTF UV": {
+            "categoria": "IMPRESIONES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "MDF 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "MDF 6mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Triplay 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Caobilla 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico clear 2mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico clear 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico color 2mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico color 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 1.0,
+            "nota": ""
+        },
+        "Acrílico espejo 2mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico espejo 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Acrílico glitter 3mm": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Bicolam": {
+            "categoria": "MATERIALES",
+            "unidad": "cm2",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Chapetones par mini": {
+            "categoria": "MATERIALES",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Chapetones chicos": {
+            "categoria": "MATERIALES",
+            "unidad": "Pieza",
+            "costo": 30.0,
+            "nota": ""
+        },
+        "Tira botecitos pintura x6": {
+            "categoria": "MATERIALES",
+            "unidad": "Pieza",
+            "costo": 2.0,
+            "nota": ""
+        },
+        "Crayolas 12": {
+            "categoria": "MATERIALES",
+            "unidad": "Caja",
+            "costo": 8.0,
+            "nota": ""
+        },
+        "Plumones acrílicos Indra 12": {
+            "categoria": "MATERIALES",
+            "unidad": "Caja",
+            "costo": 38.0,
+            "nota": ""
+        },
+        "Plumones acrílicos Indra 24": {
+            "categoria": "MATERIALES",
+            "unidad": "Caja",
+            "costo": 75.0,
+            "nota": ""
+        },
+        "Posavasos corcho adhesivo": {
+            "categoria": "MATERIALES",
+            "unidad": "Pieza",
+            "costo": 2.0,
+            "nota": ""
+        },
+        "Politec 100ml": {
+            "categoria": "MATERIALES",
+            "unidad": "ML",
+            "costo": 0.0,
+            "nota": "ref venta $25"
+        },
+        "Politec 250ml": {
+            "categoria": "MATERIALES",
+            "unidad": "ML",
+            "costo": 0.0,
+            "nota": "ref venta $50"
+        },
+        "Papel Mala IKEA rollo": {
+            "categoria": "MATERIALES",
+            "unidad": "cmL",
+            "costo": 0.033,
+            "nota": "ref venta $100"
+        },
+        "Cart Color Plus": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 4.0,
+            "nota": "30x59"
+        },
+        "Cart Opalina": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 4.0,
+            "nota": ""
+        },
+        "Cart Sirio Pearl": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 16.0,
+            "nota": ""
+        },
+        "Cart Bristol": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 1.0,
+            "nota": "21.5x28"
+        },
+        "Cartón Gris IKEA": {
+            "categoria": "PAPELES",
+            "unidad": "Cuadro IKEA",
+            "costo": 5.0,
+            "nota": "30.5x40.5"
+        },
+        "Papel Kraft": {
+            "categoria": "PAPELES",
+            "unidad": "Metro",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel Fotográfico": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel Couche adhesivo": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel Glossy": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel acetato": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cart Holográfica": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel puntitos": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 12.0,
+            "nota": ""
+        },
+        "Cartón gris (hoja)": {
+            "categoria": "PAPELES",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cartón gris (lienzo)": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cart ilustración blanca": {
+            "categoria": "PAPELES",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil adhesivo sencillo": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 22.0,
+            "nota": "30x60"
+        },
+        "Vinil adhesivo metálico": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil adhesivo glitter": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil adhesivo cepillado": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil adhesivo Tornasol": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil sencillo": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Paquete",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil detalle": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil glitter": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil Flocked": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil neón": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vinil textil glow": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Transfer": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Lienzo",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Papel para sublimar": {
+            "categoria": "PERSONALIZACIÓN",
+            "unidad": "Hoja",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera blanca mujer redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera blanca mujer V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera negra mujer redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera negra mujer V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera color mujer redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera color mujer V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera blanca hombre redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera blanca hombre V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera negra hombre redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera negra hombre V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera color hombre redondo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Playera color hombre V": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Hoodie gorro canguro": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 275.0,
+            "nota": ""
+        },
+        "Hoodie básica": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 180.0,
+            "nota": ""
+        },
+        "Hoodie niño": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 190.0,
+            "nota": ""
+        },
+        "Tote Bag Kit Hangover": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 16.0,
+            "nota": ""
+        },
+        "Tote Bag Grande": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 20.0,
+            "nota": ""
+        },
+        "Costalito jareta manta": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 20.0,
+            "nota": ""
+        },
+        "Cilindro caramelo": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cilindro Bubble": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cilindro doble": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Vaso cafetero": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 7.0,
+            "nota": ""
+        },
+        "Cilindro Tipo Stanley": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "Cilindro Skinny metal": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 0.0,
+            "nota": ""
+        },
+        "PlayDoh": {
+            "categoria": "PRODUCTOS BASE",
+            "unidad": "Pieza",
+            "costo": 13.0,
+            "nota": ""
+        }
+    },
+    "actividades": {
+        "Diseño": 300.0,
+        "Corte láser": 120.0,
+        "Corte cricut": 120.0,
+        "Depilar vinil": 130.0,
+        "Planchar": 100.0,
+        "Armar empaques": 100.0,
+        "Llenar kits": 80.0,
+        "Llenar dulces y sellar": 80.0,
+        "Refinar cantos": 100.0,
+        "Pegar cajas MDF": 100.0,
+        "Pegar cajas acrílico": 120.0,
+        "Lijar": 80.0,
+        "Etiquetar": 60.0,
+        "Hacer moños": 60.0,
+        "Pegar vinil": 80.0,
+        "Armar cuadros": 150.0,
+        "Imprimir 3D": 80.0,
+        "Imprimir papel": 60.0,
+        "Embolsar productos": 60.0
+    },
+    "maquinas": {
+        "Láser Beri": 19.0,
+        "Láser X Tool": 29.0,
+        "Creality (impresora 3D)": 7.0,
+        "X Tool bebé": 8.0,
+        "Cricut": 4.0,
+        "Impresora tinta": 2.0,
+        "Impresora sublimación": 2.0,
+        "Plancha HTV RONT": 3.0,
+        "Plancha mini": 0.0,
+        "Selladora": 0.0,
+        "Crop a Dile": 1.0,
+        "Engargoladora": 2.0,
+        "Minc": 2.0,
+        "Laminadora": 2.0,
+        "Engrapadora larga": 0.0,
+        "Lijadora": 1.0,
+        "Tanque de helio": 65.0
+    },
+    "productos": {
+        "Prueba 1 playera": {
+            "tipo": "producto",
+            "materiales": [
+                {
+                    "material": "Papel para sublimar",
+                    "cantidad": 1.0
+                },
+                {
+                    "material": "DTF Textil",
+                    "cantidad": 1.0
+                },
+                {
+                    "material": "Hoodie básica",
+                    "cantidad": 1.0
+                }
+            ],
+            "actividades": [
+                {
+                    "actividad": "Depilar vinil",
+                    "minutos": 10.0
+                },
+                {
+                    "actividad": "Diseño",
+                    "minutos": 30.0
+                },
+                {
+                    "actividad": "Imprimir papel",
+                    "minutos": 60.0
+                },
+                {
+                    "actividad": "Planchar",
+                    "minutos": 15.0
+                }
+            ],
+            "maquinas": [
+                {
+                    "maquina": "Impresora sublimación",
+                    "minutos": 5.0
+                },
+                {
+                    "maquina": "Plancha HTV RONT",
+                    "minutos": 15.0
+                }
+            ],
+            "minutos_proceso": 66.0,
+            "otros_costos": 7.0,
+            "unidades_lote": 3.0,
+            "margen_pct": null,
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "categoria": "Playeras",
+            "foto": "fotos\\R.png",
+            "publicado": true
+        }
+    }
+}
