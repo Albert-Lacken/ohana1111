@@ -960,7 +960,7 @@ elif pagina == "📦 Productos y Servicios":
         st.image(foto_actual, width=180, caption="Foto actual")
     subida = st.file_uploader("Subir foto del producto", type=["png", "jpg", "jpeg"])
     if subida is not None:
-        ruta = os.path.join(CARPETA_FOTOS, subida.name)
+        ruta = os.path.join(CARPETA_FOTOS, subida.name).replace("\\", "/")
         with open(ruta, "wb") as f:
             f.write(subida.getbuffer())
         draft["foto"] = ruta
