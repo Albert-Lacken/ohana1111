@@ -287,7 +287,8 @@ def calcular(datos, prod):
 # =========================================================
 #  ESTILO VISUAL OHANA 11:11
 # =========================================================
-st.set_page_config(page_title="Ohana 11:11 · Costos", page_icon="logo.png", layout="wide")
+st.set_page_config(page_title="Ohana 11:11 · Costos", page_icon="logo.png",
+                    layout="wide", initial_sidebar_state="collapsed")
 
 st.markdown("""
 <style>
