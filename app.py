@@ -287,7 +287,7 @@ def calcular(datos, prod):
 # =========================================================
 #  ESTILO VISUAL OHANA 11:11
 # =========================================================
-st.set_page_config(page_title="Ohana 11:11 · Costos", page_icon="🌸", layout="wide")
+st.set_page_config(page_title="Ohana 11:11 · Costos", page_icon="logo.png", layout="wide")
 
 st.markdown("""
 <style>
@@ -593,9 +593,10 @@ def iniciar_sesion():
 #  SIDEBAR Y MENÚ
 # =========================================================
 with st.sidebar:
+    st.image("logo.png", width=100)
     st.markdown(
         f"<h1 style='text-align:center;color:white !important;"
-        f"font-family:Playfair Display,serif;'>🌸<br>{NOMBRE_NEGOCIO}</h1>",
+        f"font-family:Playfair Display,serif;'>{NOMBRE_NEGOCIO}</h1>",
         unsafe_allow_html=True)
     st.markdown("---")
 
